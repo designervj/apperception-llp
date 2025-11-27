@@ -192,7 +192,7 @@ const Header = () => {
               </div>
 
               <a
-                href="/#contact"
+                href="/contact"
                 className="nav-link rounded-lg px-4 py-2 font-medium text-gray-200 transition hover:text-white"
               >
                 Contact
