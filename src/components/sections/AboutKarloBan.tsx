@@ -13,6 +13,7 @@ const AboutKarloBan = () => {
          <span className="text-[#69a242]"> SABL</span>
       </p>
       </div>
+      
     </section>
   );
 };
