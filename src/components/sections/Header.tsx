@@ -32,7 +32,7 @@ const Header = () => {
   return (
     <>
       <nav
-        className="fixed top-0 z-[60] w-full shadow-lg"
+        className=" top-0 z-[60] w-full shadow-lg"
         style={{
           background:
             "linear-gradient(135deg, #0A0D2C 0%, #072147 50%, #0E2043 100%)",

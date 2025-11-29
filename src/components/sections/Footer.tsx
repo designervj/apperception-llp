@@ -73,9 +73,16 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-
+        
+        <div className="flex justify-between">
             <div className="border-t border-gray-800 pt-8 text-center text-gray-200 text-sm">
                 <p>&copy; 2024 Apperception LLC. All rights reserved. | Designed with excellence for UAE businesses</p>
+            </div>
+
+            <div className="border-t border-gray-800 pt-8 text-center text-gray-200 text-sm">
+                <p><a href="/policy">Policy</a></p>
+            </div>
+
             </div>
         </div>
     </footer>

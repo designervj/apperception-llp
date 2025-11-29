@@ -9,6 +9,7 @@ import Footer from './components/sections/Footer';
 
 import Home from './pages/Home';
 import ContactPage from './pages/ContactPage';
+import PoliciesPage from './components/sections/PoliciesPage';
 
 
 
@@ -38,8 +39,9 @@ export default function App(){
         <Route path='/' element={<Home/>}/>
         <Route path='/contact' element={<ContactPage/>}/>
 
+        <Route path='/policy' element={<PoliciesPage/>}/>
 
-       
+      
   
 
 

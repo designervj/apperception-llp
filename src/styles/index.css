@@ -34,3 +34,12 @@ body{
    color: #000;
    width: 10px !important;
 }
+
+
+.gradient-text{
+  color: #156082;
+}
+
+.gradient-bg{
+  background-color: #156082;
+}
