@@ -148,7 +148,7 @@ const HomePage: React.FC = () => {
       {/* Hero Section */}
       <section
         id="home"
-        className="bg-gradient-to-br from-[#0A2540] via-[#156082] to-[#0E7490] pt-32 pb-20 px-4 min-h-screen flex items-center"
+        className="bg-[#156082] pt-32 pb-20 px-4 min-h-screen flex items-center"
       >
         <div className="container-xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -762,7 +762,7 @@ const HomePage: React.FC = () => {
             {/* Banking & Insurance */}
             <div className="bg-gradient-to-br from-blue-50 to-white rounded-xl shadow-lg p-8 border border-blue-100 card-hover">
               <div className="text-primary text-4xl mb-4">
-                <FaUniversity />
+                <FaUniversity  className="gradient-text"/>
               </div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Banking &amp; Insurance
@@ -776,7 +776,7 @@ const HomePage: React.FC = () => {
             {/* Higher Education */}
             <div className="bg-gradient-to-br from-blue-50 to-white rounded-xl shadow-lg p-8 border border-blue-100 card-hover">
               <div className="text-primary text-4xl mb-4">
-                <FaGraduationCap />
+                <FaGraduationCap className="gradient-text"/>
               </div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Higher Education
@@ -790,7 +790,7 @@ const HomePage: React.FC = () => {
             {/* Staffing */}
             <div className="bg-gradient-to-br from-blue-50 to-white rounded-xl shadow-lg p-8 border border-blue-100 card-hover">
               <div className="text-primary text-4xl mb-4">
-                <FaUsers />
+                <FaUsers className="gradient-text"/>
               </div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Staffing
@@ -804,7 +804,7 @@ const HomePage: React.FC = () => {
             {/* Non-profits */}
             <div className="bg-gradient-to-br from-blue-50 to-white rounded-xl shadow-lg p-8 border border-blue-100 card-hover">
               <div className="text-primary text-4xl mb-4">
-                <FaHandsHelping />
+                <FaHandsHelping className="gradient-text"/>
               </div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Non-profits
@@ -818,7 +818,7 @@ const HomePage: React.FC = () => {
             {/* Public Sector */}
             <div className="bg-gradient-to-br from-blue-50 to-white rounded-xl shadow-lg p-8 border border-blue-100 card-hover">
               <div className="text-primary text-4xl mb-4">
-                <FaLandmark />
+                <FaLandmark className="gradient-text"/>
               </div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 Public Sector
@@ -830,7 +830,7 @@ const HomePage: React.FC = () => {
             </div>
   <div className="bg-gradient-to-br from-blue-50 to-white rounded-xl shadow-lg p-8 border border-blue-100 card-hover">
         <div className="text-primary text-3xl mb-4">
-          <FaIndustry />
+          <FaIndustry className="gradient-text"/>
         </div>
         <h3 className="text-2xl font-bold text-gray-900 mb-3">
           Conglomerates &amp; Large Enterprise

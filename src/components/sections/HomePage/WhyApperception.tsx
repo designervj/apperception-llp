@@ -144,7 +144,7 @@ const Bullet = ({ children }) => (
 // Feature Card Component
 const Feature = ({ icon, title, text }) => (
   <div className="bg-gradient-to-br from-purple-50 to-white border border-purple-100 rounded-2xl p-6 shadow-lg hover:shadow-xl transition group">
-    <div className="text-primary text-3xl mb-4 group-hover:scale-110 transition">
+    <div className="gradient-text text-3xl mb-4 group-hover:scale-110 transition">
       {icon}
     </div>
     <h4 className="font-semibold text-gray-800 mb-2 text-lg">{title}</h4>
